@@ -1,5 +1,9 @@
 twig:
     file_name_pattern: '*.twig'
+    form_themes: ['bootstrap_5_layout.html.twig']
+    # If true, whenever a template is rendered, Symfony checks first if its source code 
+    # has changed since it was compiled. If it has changed, the template is compiled again automatically.
+    auto_reload: true
 
 when@test:
     twig:
